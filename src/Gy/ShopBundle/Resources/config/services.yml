@@ -1,0 +1,7 @@
+parameters:
+#    gy_shop.example.class: Gy\ShopBundle\Example
+
+services:
+#    gy_shop.example:
+#        class: %gy_shop.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

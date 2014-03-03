@@ -67,3 +67,15 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+
+# Mongodb Connection
+doctrine_mongodb:
+    connections:
+        default:
+            server: mongodb://localhost:27017
+            options: {}
+    default_database: Gyshop
+    document_managers:
+        default:
+            auto_mapping: true

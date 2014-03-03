@@ -1,0 +1,4 @@
+gy_shop:
+    resource: "@GyShopBundle/Resources/config/routing.yml"
+    prefix:   /
+
